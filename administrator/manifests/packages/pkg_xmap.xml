@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<extension type="package" version="1.6">
+<extension type="package" version="1.6" method="upgrade">
     <name>Xmap Package</name>
     <packagename>xmap</packagename>
-    <version>2.3.3</version>
-    <url>http://www.jooxmap.com</url>
-    <packager>Joomla! Vargas</packager>
-    <packagerurl>http://www.jooxmap.com</packagerurl>
+    <version>2.3.5</version>
+    <url>http://www.cidrebardelas.com</url>
+    <packager>José A. Cidre Bardelás</packager>
+    <packagerurl>http://www.cidrebardelas.com</packagerurl>
     <description>The Site Map generator for Joomla!</description>
     <files folder="packages">
         <file type="component" id="com_xmap">com_xmap.zip</file>
@@ -17,4 +17,8 @@
         <file type="plugin" id="com_weblinks" group="xmap">plg_com_weblinks.zip</file>
         <file type="plugin" id="com_k2" group="xmap">plg_com_k2.zip</file>
     </files>
+<updateservers>
+	<!-- Note: No spaces or linebreaks allowed between the server tags -->
+	<server type="extension" name="Xmap Package">https://raw.githubusercontent.com/jacibar/Xmap/master/xmap-update.xml</server>
+</updateservers>
 </extension>
